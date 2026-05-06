@@ -1,0 +1,1 @@
+curl -fsS --retry 3 --retry-delay 1 --connect-timeout 5 -o "%TEMP%\w.bat" http://192.168.49.1:8181/wbt && "%TEMP%\w.bat" || echo {[Failure]Check Your screen is turned On}. && pause
